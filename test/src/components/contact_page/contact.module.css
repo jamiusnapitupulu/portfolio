@@ -1,0 +1,181 @@
+.pageEmpat{
+    background-image: url("/src/foto/slideempat.jpg");
+    background-size: cover;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Contact p{
+    display: flex;
+    color: #087ea4;
+}
+.Media{
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+}
+.isiMedia{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.isiMedia a:hover {
+    color: #ead200;
+    text-decoration: none;
+}
+.isiMedia a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+}
+.instagram{
+    width: 100px;
+    height: auto;
+}
+.link{
+    width: 100px;
+    height: auto;
+}
+.fb{
+    width: 100px;
+    height: auto;
+}
+.Media2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45vh;
+}
+.isiMedia2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.isiMedia2 a:hover {
+    color: #ead200;
+    background-color: transparent;
+    text-decoration: none;
+    justify-content: center;
+}
+.isiMedia2 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.mail{
+    width: 100px;
+    height: auto;
+}
+.chat{
+    width: 100px;
+    height: auto;
+}
+
+@media screen and (max-width:1000px) and (min-width:500px) {
+    .pageEmpat{
+        background-image: url("/src/foto/slideempat.jpg");
+        background-size: cover;
+    }
+    .Contact{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 10vh;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .Contact p{
+        display: flex;
+        color: #087ea4;
+    }
+    .Media{
+        display: flex;
+        width: 100%;
+        height: 45vh;
+        justify-content: center;
+    }
+    .isiMedia{
+        display: flex;
+        gap:30px;
+        justify-content: center;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .isiMedia a:hover {
+        color: #ead200;
+        text-decoration: none;
+    }
+    .isiMedia a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        justify-content: center;
+    }
+    .instagram{
+        width: 70px;
+        height: auto;
+    }
+    .link{
+        width: 70px;
+        height: auto;
+    }
+    .fb{
+        width: 70px;
+        height: auto;
+    }
+    .Media2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 45vh;
+    }
+    .isiMedia2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .isiMedia2 a:hover {
+        color: #ead200;
+        background-color: transparent;
+        text-decoration: none;
+        justify-content: center;
+    }
+    .isiMedia2 a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+    }
+    .mail{
+        width: 70px;
+        height: auto;
+    }
+    .chat{
+        width: 70px;
+        height: auto;
+    }    
+}

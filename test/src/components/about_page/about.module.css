@@ -1,0 +1,147 @@
+.pageDua{
+    background-image: url("/src/foto/blue2.png");
+    background-size: cover;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.about p{
+    font-size: 25px;
+    color: #087ea4;
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    height: 60vh;
+    width: 100%;
+}
+.fot{
+    display: flex;
+    flex-direction: column;
+}
+.PP{
+    width: 200px;
+    height:auto;
+    padding-left: 30px;
+}
+.isifot{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.isifot h3{
+    display: flex;
+    font-size: 20px;
+}
+.isifot ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+}
+.isiskill{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:1000px) and (min-width:500px) {
+    .pageDua{
+        background-image: url("/src/foto/blue2.png");
+        background-size: contains;
+        width: 100vw;
+        height: 100vh;
+    }
+    .about{
+        display: flex;
+        padding-top: 30px;
+    }
+    .about p{
+        text-align: center;
+        color: #087ea4;
+        font-size: 25px;
+        height: 10vh;
+        width: 100vw;
+    }
+    .foto{
+        display: flex;
+        flex-direction: row;
+        height: 60vh;
+        width: 100vw;
+    }
+    .fot{
+        display: flex;
+        flex-direction: column;
+    }
+    .PP{
+        width: 200px;
+        height: auto;
+        padding-top: 30px;
+    }
+    .isifot{
+        display: flex;
+        flex-direction: column;
+    }
+    .isifot h3{
+        display: flex;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .isifot ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .skill{
+        display: flex;
+        flex-direction: row;
+        height: 30vh;
+        width: 100vw;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    .isiskill{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        columns: sm -6px;;
+    }
+    .sk1{
+        width: 65px;
+        height: 65px;
+    }
+    .sk2{
+        width: 65px;
+        height: 65px;
+    }
+    .sk3{
+        width: 65px;
+        height: 65px;
+    }
+    .sk4{
+        width: 65px;
+        height: 65px;
+    }
+    .sk5{
+        width: 65px;
+        height: 65px;
+    }
+    .sk6{
+        width: 65px;
+        height: 65px;
+    }    
+}
