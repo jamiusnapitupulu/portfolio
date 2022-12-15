@@ -37,8 +37,7 @@
     font-size: 15px;
     color: black;
 }
-
-@media screen and (max-width:1000px) and (min-width:500px) {
+@media screen and (max-width:768px) {
     .pageTiga{
         background-image: url("/src/foto/blue3.png");
         background-size: cover;
@@ -50,35 +49,33 @@
         justify-content: center;
         height: 10vh;
         width: 100%;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
     }
     .experience p{
         display: flex;
-        color: #087ea4;
     }
     .isiExp{
         display: flex;
         flex-direction: column;
         height: 90vh;
         width: 100%;
-        color: #087ea4;
+        color: black;
     }
     .isiExp p{
         display: flex;
         flex-direction: column;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 14px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 18px;
         font-weight: bold;
     }
     .isiExp ul{
         display: flex;
         flex-direction: column;
-        padding-left: 50px;
+        padding-left: 100px;
         padding-right: 50px;
-        font-size: 12px;
-        font-weight: bold;
+        font-size: 15px;
         color: black;
-    }        
+    }
 }
