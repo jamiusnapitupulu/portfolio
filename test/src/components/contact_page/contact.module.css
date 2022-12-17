@@ -99,11 +99,11 @@
         width: 100vw;
         height: 45vh;
         justify-content: center;
+        gap:30px;
     }
     .isiMedia{
         display: flex;
         flex-direction: column;
-        gap:30px;
         justify-content: center;
         align-items: center;
         padding-top: 30px;
@@ -118,13 +118,13 @@
         display: flex;
         flex-direction: column;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 12px;
         color: black;
         font-weight: bold;
     }
     .isiMedia img{
-        width: 70%;
-        height: auto;
+        width: 60px;
+        height: 60px;
     }
     .Media2{
         display: flex;
@@ -132,7 +132,7 @@
         width: 100vw;
         height: 45vh;
         justify-content: center;
-        gap: 50px;
+        gap: 10px;
     }
     .isiMedia2 {
         display: flex;
@@ -150,5 +150,9 @@
     }
     .isiMedia2 a:hover{
         color: #ead200;
+    }
+    .isiMedia2 img{
+        width: 60px;
+        height: 60px;
     }
 }
