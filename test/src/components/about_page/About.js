@@ -7,7 +7,6 @@ import  skil3 from "./../../foto/Group3.png"
 import  skil4 from "./../../foto/Group4.png"
 import  skil5 from "./../../foto/Group5.png"
 import  skil6 from "./../../foto/Group6.png"
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 function About(){
     return(
@@ -20,8 +19,7 @@ function About(){
                     <img className={styles.PP} src={FotoProfil} alt="#"></img>
                 </div>
                 <div className={styles.isifot}>
-                    <span>A Bachelor of Electrical Engineering From Satya Wacana</span>
-                    <span>Christian University (SWCU) with an Spesialist Instrument.</span>
+                    <span>A Bachelor of Electrical Engineering From Satya Wacana Christian University (SWCU) with an Spesialist Instrument.</span>
                     <ul class="a">
                         <li>Name : Jamius Maruli Tua Napitupulu</li>
                         <li>Birthday : 03 Januari 1997</li>

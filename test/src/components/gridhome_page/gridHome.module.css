@@ -1,0 +1,47 @@
+.pageContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/src/foto/background1.png");
+    background-size: cover;
+    position: center center;
+}
+.topnav{
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 32px;
+    align-items: center;
+    gap: 24px;
+}
+.topnav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+    font-size: 24px;
+}
+.topnav a:hover{
+    color: white;
+}
+.content{
+    background-color: aqua;
+}
+@media screen and (min-width:360px) and (max-width:600px)  {
+    .topnav{
+        padding: 0px;
+        justify-content: center;
+    }
+    .topnav a{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:120px) and (max-width:359px) {
+    .topnav{
+        flex-direction: column;
+        height: fit-content;
+        gap: 0px;
+    }
+    .topnav a{
+        font-size: 16px;
+    }
+}

@@ -78,13 +78,13 @@
     .pageEmpat{
         background-image: url("/src/foto/slideempat.jpg");
         background-size: cover;
-        width: 100vw;
+        /* width: 100vw; */
         height: 100vh;
     }
     .Contact{
         display: flex;
         justify-content: center;
-        width: 100vw;
+        /* width: 100vw; */
         height: 10vh;
         font-size: 30px;
         font-weight: bold;
@@ -96,7 +96,7 @@
     .Media{
         display: flex;
         flex-direction: row;
-        width: 100vw;
+        /* width: 100vw; */
         height: 45vh;
         justify-content: center;
         gap:30px;
@@ -123,13 +123,13 @@
         font-weight: bold;
     }
     .isiMedia img{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     .Media2{
         display: flex;
         flex-direction: row;
-        width: 100vw;
+        /* width: 100vw; */
         height: 45vh;
         justify-content: center;
         gap: 10px;
@@ -137,14 +137,13 @@
     .isiMedia2 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
     .isiMedia2 a{
         display: flex;
         flex-direction: column;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 13px;
         color: black;
         font-weight: bold;
     }
@@ -152,7 +151,7 @@
         color: #ead200;
     }
     .isiMedia2 img{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 }

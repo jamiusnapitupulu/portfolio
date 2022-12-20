@@ -1,20 +1,20 @@
 .pageSatu{
     background-image: url("/src/foto/background1.png");
     background-size: cover;
-    width: 100vw;
+    max-width: 100vw; 
     height: 100vh;
 }
 .topnav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 100vw;
+    width: inherit;
     height: 10vh;
 }
 .toplink {
     display: flex;
     gap:5px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 .toplink a{
@@ -31,7 +31,7 @@
 .awal{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: inherit;
     height: 60vh;
     justify-content: center;
     text-align: center;
@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
+    width: inherit;
     height: 30vh;
 }
 .butt{
@@ -77,38 +77,30 @@
     color: black;
 }
 @media  screen and (max-width:768px) {
-    .pageSatu{
-        background-image: url("/src/foto/background1.png") ;
+    /* .pageSatu{
+        background-image: url("/src/foto/background1.png");
         background-size: cover;
+        width: 100vw;
         height: 100vh;
-        width: 100vw ;
-    }
-      .topnav {
+    } */
+    .topnav {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        /* width: 100vw; */
         height: 10vh;
-        width: 100vw;
-    } 
-    .toplink {
-        display: flex;
-        gap:5px;
-        font-size: 20px;
-        text-align: center;
     }
-    .toplink a{
+    .toplink{
         display: flex;
-        font-weight: bold;
-        color:orangered;
-        text-decoration: none;
-        padding-top: 12px;
-        padding-right: 30px;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 21px;
     }
     .awal{
         display: flex;
         flex-direction: column;
         height: 60vh;
-        width: 100vw;
+        /* width: 100vw; */
     }
     .awal span{
         display: flex;
@@ -121,14 +113,27 @@
         font-size: 20px;
     }
     .button{
-        display: flex;
+        display:flex;
         flex-direction: row;
         height: 30vh;
-        width: 100vw;
+        /* width: 100vw; */
     }
     .butt{
         display: flex;
-        flex-direction: row;
-        gap: 50px;
+        flex-direction:row;
+    }
+    .butt a{
+        background-color: orangered;
+        color:white;
+        border-radius: 15px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        justify-content: center;
+    }
+    .butt a:hover{
+        background-color: #f8f6e3;
+        text-shadow:5px;
+        color: black;
     }
 }
