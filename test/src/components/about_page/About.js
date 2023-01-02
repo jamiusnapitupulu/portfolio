@@ -1,12 +1,12 @@
 import styles from "./about.module.css"
 
 import FotoProfil from "./../../foto/fotoku.png"
-import  skil1 from "./../../foto/Group1.png"
-import  skil2 from "./../../foto/Group2.png"
-import  skil3 from "./../../foto/Group3.png"
-import  skil4 from "./../../foto/Group4.png"
-import  skil5 from "./../../foto/Group5.png"
-import  skil6 from "./../../foto/Group6.png"
+import  skil1 from "./../../foto/grupSkill1.png"
+import  skil2 from "./../../foto/grupSkill2.png"
+import  skil3 from "./../../foto/grupSkill3.png"
+import  skil4 from "./../../foto/grupSkill4.png"
+import  skil5 from "./../../foto/grupSkill5.png"
+import  skil6 from "./../../foto/grupSkill6.png"
 
 function About(){
     return(
@@ -20,13 +20,33 @@ function About(){
                 </div>
                 <div className={styles.isifot}>
                     <span>A Bachelor of Electrical Engineering From Satya Wacana Christian University (SWCU) with an Spesialist Instrument.</span>
-                    <ul class="a">
-                        <li>Name : Jamius Maruli Tua Napitupulu</li>
-                        <li>Birthday : 03 Januari 1997</li>
-                        <li>Phone : +62-812-9985-7003</li>
-                        <li>City : Banjarnegara, Indonesia</li>
-                        <li>Degree : Bachelor</li>
-                    </ul>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>Jamius Maruli Tua Napitupulu</td>
+                        </tr>
+                        <tr>
+                            <td>Birthday</td>
+                            <td>:</td>
+                            <td>03 Januari 1997</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>:</td>
+                            <td>081299857003</td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td>:</td>
+                            <td>Banjarnegara, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Degree</td>
+                            <td>:</td>
+                            <td>Bachelor</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 

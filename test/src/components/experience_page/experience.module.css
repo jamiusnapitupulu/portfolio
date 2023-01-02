@@ -1,54 +1,129 @@
 .pageTiga{
-    background-image: url("/src/foto/blue3.png");
+    background-image: url("/src/foto/background3.png");
     background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
 }
 .experience{
     display: flex;
     justify-content: center;
     height: 10vh;
-    width: 100%;
-    font-size: 25px;
+    width: inherit;
     font-weight: bold;
 }
-.experience p{
+.experience span{
     display: flex;
-    color: #087ea4;
+    font-size: 24px;
+    color: orangered;
 }
 .isiExp{
     display: flex;
     flex-direction: column;
     height: 90vh;
-    width: 100%;
-    color: black;
+    width: inherit;
+    color: orangered;
 }
 .isiExp p{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 18px;
+    padding-left: 96px;
+    padding-right: 96px;
+    font-size: 16px;
     font-weight: bold;
 }
 .isiExp ul{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 50px;
-    font-size: 15px;
-    color: black;
+    padding-left: 96px;
+    padding-right: 48px;
+    font-size: 16px;
+    color: white;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:280px) and (max-width:419px){
+    .experience span{
+        font-size: 8px;
+    }
+    .isiExp p{
+        font-size: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .isiExp ul {
+        font-size: 8px;
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+}
+@media screen and (min-width:419px) and (max-width:576px){
+    .experience span{
+        font-size: 12px;
+    }
+    .isiExp p{
+        font-size: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .isiExp ul {
+        font-size: 12px;
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .experience span{
+        font-size: 16px;
+    }
+    .isiExp p{
+        font-size: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .isiExp ul {
+        font-size: 12px;
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .experience span{
+        font-size: 16px;
+    }
+    .isiExp p{
+        font-size: 16px;
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+    .isiExp ul {
+        font-size: 12px;
+        padding-left: 48px;
+        padding-right: 16px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1240px){
+    .experience span{
+        font-size: 16px;
+    }
+    .isiExp p{
+        font-size: 16px;
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+    .isiExp ul {
+        font-size: 12px;
+        padding-left: 48px;
+        padding-right: 16px;
+    }
+}
+/* @media screen and (max-width:768px) {
     .pageTiga{
         background-image: url("/src/foto/blue3.png");
         background-size: cover;
         height: 100vh;
-        /* width: 100vw; */
     }
     .experience{
         display: flex;
         justify-content: center;
         height: 10vh;
-        /* width: 100%; */
         font-size: 25px;
         font-weight: bold;
     }
@@ -59,7 +134,6 @@
         display: flex;
         flex-direction: column;
         height: 90vh;
-        /* width: 100%; */
         color: black;
     }
     .isiExp p{
@@ -78,4 +152,4 @@
         font-size: 14px;
         color: black;
     }
-}
+} */

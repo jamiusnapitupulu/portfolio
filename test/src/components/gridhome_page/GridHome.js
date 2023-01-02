@@ -1,23 +1,23 @@
 import styles from "./gridHome.module.css"
-import file from "./../../resume/CV Jamius Maruli Tua Napitupulu.pdf"
+// import file from "./../../resume/CV Jamius Maruli Tua Napitupulu.pdf"
 
 function GridHome(){
     return(
-        <div className={styles.pageContainer}>
-            <div className={styles.topnav}>
-                <a href="#Home">Home</a>
-                <a href="#About">About</a>
-                <a href="#Experience">Experience</a>
-                <a href="#Contact">Contact</a>
-            </div>
-            <div className={styles.content}>
-                <p>Jamius Maruli Tua Napitupulu</p>
-                <p>I'am Fresh Graduated,</p>
-                <p>Bachelor of Electrical and Computer Engineering</p>
-                <a href={file} download="Resume_CV Jamius Maruli Tua Napitupulu" >Resume</a>
-                <a href="#Contact">Contact</a>
-            </div>
-        </div>
+        // <div className={styles.pageContainer}>
+        //     <div className={styles.topnav}>
+        //         <a href="#Home">Home</a>
+        //         <a href="#About">About</a>
+        //         <a href="#Experience">Experience</a>
+        //         <a href="#Contact">Contact</a>
+        //     </div>
+        //     <div className={styles.content}>
+        //         <p>Jamius Maruli Tua Napitupulu</p>
+        //         <p>I'am Fresh Graduated,</p>
+        //         <p>Bachelor of Electrical and Computer Engineering</p>
+        //         <a href={file} download="Resume_CV Jamius Maruli Tua Napitupulu" >Resume</a>
+        //         <a href="#Contact">Contact</a>
+        //     </div>
+        // </div>
         // <div id="Home"className={styles.pageSatu}>
         //     <div className={styles.topnav}>
         //         <div className={styles.toplink}>
@@ -39,6 +39,13 @@ function GridHome(){
         //         </div>
         //     </div>
         // </div>
+        // <table>
+        //     <tr>
+        //         <td>nama</td>
+        //         <td>:</td>
+        //         <td>Jamius Maruli Tua Napitupulu</td>
+        //     </tr>
+        // </table>
     )
 }
 export default GridHome;

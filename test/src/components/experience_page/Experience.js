@@ -5,7 +5,7 @@ function Experience(){
         <div>
             <div id="Experience" className={styles.pageTiga}>
                 <div className={styles.experience}>
-                    <span><p>Experience</p></span>
+                    <span>Experience</span>
                 </div>
                 <div className={styles.isiExp}>
                     <p>Badminton Interest Talent Committee Faculty of Electrical and Computer Engineering (Head of Badminton Interest Talent) Oct 2017 - Jul 2018</p>

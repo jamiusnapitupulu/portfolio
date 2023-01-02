@@ -4,7 +4,6 @@ import file from "./../../resume/CV Jamius Maruli Tua Napitupulu.pdf"
 function HeroPage(){
     return(
         <div id="Home"className={styles.pageSatu}>
-            {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
             <div className={styles.topnav}>
                 <div className={styles.toplink}>
                     <a href="#Home">Home</a>

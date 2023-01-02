@@ -1,0 +1,199 @@
+.pageDua{
+    background-color: aqua;
+}
+/* .pageDua{
+    background-image: url("/src/foto/background2.png");
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.about span{
+    font-size: 25px;
+    color: orangered;
+    font-weight: bold;
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    height: 40vh;
+    width: inherit;
+}
+.PP{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.isifot{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.isifot span{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.isifot ul li{
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+.skil{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: 25vh;
+    justify-content: center;
+    gap: 50px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.skill img{
+    width: 60%;
+    height: 60%;
+}
+.skill p{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: 25vh;
+    justify-content: center;
+    gap: 50px;
+}
+.skill2{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.skill2 img{
+    display: flex;
+    width: 60%;
+    height: 60%;
+}
+.skill2 p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+@media only screen and (max-width:768px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .about span{
+        display: flex;
+        font-size: 20px;
+        color: #087ea4;
+        font-weight: bold;
+    }
+    .foto{
+        display: flex;
+        flex-direction: row;
+        height: 40vh;
+    }
+    .PP{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: auto;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .isifot{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    .isifot span{
+        display: flex;
+        padding-left: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .isifot ul li{
+        font-size: 16px;
+    }
+    .skil{
+        display: flex;
+        flex-direction: row;
+        height: 25vh;
+        justify-content: center;
+        gap: 50px;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill img{
+        width: auto;
+        height: 40%;
+    }
+    .skill p{
+        font-size: 15px;
+        align-items: center;
+        color: black;
+    } 
+    .skills{
+        display: flex;
+        flex-direction: row;
+        height: 25vh;
+        justify-content: center;
+        gap: 50px;
+    }
+    .skill2{
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill2 img{
+        width: auto;
+        height: 40%;
+    }
+    .skill2 p{
+        font-size: 16px;
+        align-items: center;
+        color: black;
+    }
+} */
