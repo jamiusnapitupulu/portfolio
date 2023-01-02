@@ -38,6 +38,7 @@
     color: white;
     font-weight: bold;
     justify-content: center;
+    align-items: center;
 }
 .isiMedia a:hover {
     color: orangered;
@@ -68,6 +69,7 @@
     font-size: 16px;
     color: white;
     font-weight: bold;
+    align-items: center;
 }
 .isiMedia2 img{
     width: 100px;

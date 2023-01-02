@@ -101,7 +101,7 @@
 }
 @media screen and (min-width:280px) and (max-width:419px){
     .about span{
-        font-size: 8px;
+        font-size: 16px;
     }
     .foto{
         display: flex;
@@ -112,10 +112,10 @@
     .PP{
         display: flex;
         flex-direction: column;
-        width: 100px;
+        width: 120px;
         height: auto;
         padding-top: 16px;
-        padding-left: 16px;
+        padding-left: 8px;
     }
     .isifot{
         display: flex;
@@ -125,10 +125,10 @@
         padding-right: 8px;
     }
     .isifot span{
-        font-size: 8px;
+        font-size: 16px;
     }
     .isifot, tr, td {
-    font-size: 8px;
+    font-size: 12px;
     }
     .skil{
         display: flex;
@@ -143,14 +143,14 @@
         height: auto;
     }
     .skill p{
-        font-size: 8px;
+        font-size: 12px;
     }
     .skill2 img{
         width: 110%;
         height: auto;
     }
     .skill2 p{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 @media screen and (min-width:419px) and (max-width:576px){

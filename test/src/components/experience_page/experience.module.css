@@ -42,15 +42,15 @@
 }
 @media screen and (min-width:280px) and (max-width:419px){
     .experience span{
-        font-size: 8px;
+        font-size: 16px;
     }
     .isiExp p{
-        font-size: 8px;
+        font-size: 12px;
         padding-left: 16px;
         padding-right: 16px;
     }
     .isiExp ul {
-        font-size: 8px;
+        font-size: 12px;
         padding-left: 32px;
         padding-right: 16px;
     }
