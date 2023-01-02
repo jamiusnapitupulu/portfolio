@@ -1,5 +1,5 @@
 .pageEmpat{
-    background-image: url("/src/foto/background4.jpg");
+    background-image: url("/src/foto/background5.jpg");
     background-size: cover;
     max-width: 100vw;
     height: 100vh;
@@ -23,7 +23,7 @@
     width: inherit;
     height: 45vh;
     justify-content: center;
-    gap:100px;
+    gap:240px;
 }
 .isiMedia{
     display: flex;
@@ -45,7 +45,7 @@
     text-decoration: none;
 }
 .isiMedia img{
-    width: 100px;
+    max-width: 100px;
     height: auto;
 }
 .Media2{
@@ -54,7 +54,7 @@
     width: inherit;
     height: 45vh;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
 }
 .isiMedia2 {
     display: flex;
@@ -88,7 +88,11 @@
         padding-left: 16px;
     }
     .isiMedia a{
-        font-size: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
         text-align: center;
         padding: 8px;
     }
@@ -103,8 +107,9 @@
     .isiMedia2 a{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        font-size: 8px;
+        font-size: 12px;
         padding: 8px;
     }
 }
@@ -118,7 +123,7 @@
     .isiMedia img{
         width: 60px;
         height: auto;
-        padding-left: 16px;
+        /* padding-left: 16px; */
     }
     .isiMedia a{
         font-size: 8px;
@@ -151,7 +156,7 @@
     .isiMedia img{
         width: 70px;
         height: auto;
-        padding-left: 16px;
+        /* padding-left: 16px; */
     }
     .isiMedia a{
         font-size: 8px;
@@ -184,7 +189,7 @@
     .isiMedia img{
         width: 80px;
         height: auto;
-        padding-left: 16px;
+        /* padding-left: 16px; */
     }
     .isiMedia a{
         font-size: 8px;
@@ -212,21 +217,26 @@
         font-size: 16px;
     }
     .Media{
-        gap: 32px;
+        gap: 100px;
     }
     .isiMedia img{
         width: 90px;
         height: auto;
-        padding-left: 16px;
+        /* padding-left: 16px; */
     }
     .isiMedia a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-size: 12px;
         text-align: center;
-        padding: 32px;
+        /* padding: 32px; */
+        max-width: 100px;
     }
     .Media2{
         display: flex;
-        gap: 24px;
+        gap: 100px;
     }
     .isiMedia2 img{
         width: 90px;
@@ -235,9 +245,11 @@
     .isiMedia2 a{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         font-size: 12px;
         padding: 32px;
+        max-width: 100px;
     }
 }
 @media screen and (min-width:993px) and (max-width:1240px){
@@ -245,21 +257,25 @@
         font-size: 24px;
     }
     .Media{
-        gap: 32px;
+        gap: 120px;
     }
     .isiMedia img{
         width: 100px;
         height: auto;
-        padding-left: 16px;
+        /* padding-left: 16px; */
     }
     .isiMedia a{
-        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
+        font-size: 12px;
         padding: 32px;
+        max-width: 100px;
     }
     .Media2{
         display: flex;
-        gap: 24px;
+        gap: 120px;
     }
     .isiMedia2 img{
         width: 100px;
@@ -268,85 +284,52 @@
     .isiMedia2 a{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        text-align: center;
         font-size: 12px;
         padding: 32px;
+        gap: 16px;
+        max-width: 100px;
     }
 }
-/* @media screen and (max-width:768px) {
-    .pageEmpat{
-        background-image: url("/src/foto/slideempat.jpg");
-        background-size: cover;
-        height: 100vh;
-    }
-    .Contact{
-        display: flex;
-        justify-content: center;
-        height: 10vh;
-        font-size: 30px;
-        font-weight: bold;
-    }
+@media screen and (min-width:1241px) and (max-width:1800px){
     .Contact p{
-        display: flex;
-        color: #087ea4;
+        font-size: 24px;
     }
     .Media{
-        display: flex;
-        flex-direction: row;
-        height: 45vh;
-        justify-content: center;
-        gap:30px;
+        gap: 120px;
     }
-    .isiMedia{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .isiMedia a:hover {
-        color: #ead200;
-        text-decoration: none;
+    .isiMedia img{
+        width: 100px;
+        height: auto;
+        /* padding-left: 16px; */
     }
     .isiMedia a{
         display: flex;
         flex-direction: column;
-        text-decoration: none;
+        justify-content: center;
+        text-align: center;
         font-size: 12px;
-        color: black;
-        font-weight: bold;
-    }
-    .isiMedia img{
-        width: 60px;
-        height: 60px;
+        /* padding: 32px; */
+        gap:16px;
+        max-width: 100px;
     }
     .Media2{
         display: flex;
-        flex-direction: row;
-        height: 45vh;
-        justify-content: center;
-        gap: 10px;
+        gap: 120px;
     }
-    .isiMedia2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .isiMedia2 img{
+        width: 100px;
+        height: auto;
     }
     .isiMedia2 a{
         display: flex;
         flex-direction: column;
-        text-decoration: none;
-        font-size: 13px;
-        color: black;
-        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        /* padding: 32px; */
+        gap: 16px;
+        max-width: 100px;
     }
-    .isiMedia2 a:hover{
-        color: #ead200;
-    }
-    .isiMedia2 img{
-        width: 60px;
-        height: 60px;
-    }
-} */
+}
